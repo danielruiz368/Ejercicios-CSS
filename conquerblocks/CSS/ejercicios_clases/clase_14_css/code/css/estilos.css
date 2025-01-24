@@ -1,0 +1,118 @@
+.caja1-ejercicio1 {
+    width: 250px;
+    height: 200px;
+    border: 5px solid red;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 25px;
+}
+
+.caja2-ejercicio1 {
+    width: 300px;
+    height: 200px;
+    border: 7px solid green;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+.contenedor {
+    width: 100%;
+    min-height: 300px;
+    border: 5px solid #f10606;
+    margin: 20px;
+    position: relative;
+}
+
+.caja1-ejercicio2 {
+    width: 50%;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: 5px solid #025e0a;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caja2-ejercicio2 {
+    width: 50%;
+    background-color: #f0f0f0;
+    border: 5px solid #030a66;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.caja3-ejercicio2 {
+  width: 50%;
+    background-color: #f0f0f0;
+    border: 5px solid #b89d05;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: relative;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Estilos para las cajas */
+.caja1-ejercicio3, .caja2-ejercicio3, .caja3-ejercicio3 {
+    background-color: #f0f0f0;
+    border: 5px solid #d65012;
+    margin: 20px 0;
+    width: 300px;
+}
+
+.caja1-ejercicio3 {
+    padding: 0;
+    border: 5px solid #025e0a;
+}
+
+.caja2-ejercicio3 {
+    padding: 25px;
+    border: 5px solid #030a66;
+}
+
+.caja3-ejercicio3 {
+    padding: 50px;
+    border: 5px solid #b89d05;
+}
+
+/* Estilos para la caja 1 */
+.caja1-ejercicio4 {
+    border-top: 3px solid #ff0000;
+    border-right: 5px dotted #00ff00;
+    border-bottom: 4px dashed #0000ff;
+    border-left: 6px double #ff00ff;
+    margin: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para la caja 2 */
+.caja2-ejercicio4 {
+    border: 3px groove #666666;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #e0e0e0;
+}
+
+/* Estilos para las cajas anidadas */
+.caja3-ejercicio4 {
+    border: 2px solid #333333;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}

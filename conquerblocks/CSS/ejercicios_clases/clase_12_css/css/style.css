@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../Fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akronim';
+    src: url('../../Fonts/Akronim-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.parrafo-1 {
+    font-family: Verdana, sans-serif;
+}
+
+.parrafo-2 {
+    font-family: Didot, serif;
+}
+
+.parrafo-3 {
+    font-family: FreeMono, monospace;
+}
+
+.parrafo-4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.parrafo-5 {
+    font-family: 'Akronim', cursive;
+    font-size: 24px;
+}
+
+.parrafo-6 {
+    font-family: 'Montserrat', sans-serif;
+}

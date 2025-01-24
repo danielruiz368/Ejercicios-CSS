@@ -1,0 +1,267 @@
+/*---------------------------------------ejercicio 1-----------------------------------------------------------*/
+
+
+
+.main-container-ejercicio {
+  width: 900px;
+  height: 600px;  
+  border: 2px solid red;
+  display: flex;
+  
+  
+}
+
+.main-container-ejercicio div {
+  height: 100%;
+  width: 70px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 2px;
+  padding-right: 2px;
+  display: flex;
+
+}
+
+
+.main-container-ejercicio div:nth-child(1) { background-color: red; }
+.main-container-ejercicio div:nth-child(2) { background-color: blue; }
+.main-container-ejercicio div:nth-child(3) { background-color: green; }
+.main-container-ejercicio div:nth-child(4) { background-color: yellow; }
+.main-container-ejercicio div:nth-child(5) { background-color: purple; }
+.main-container-ejercicio div:nth-child(6) { background-color: orange; }
+.main-container-ejercicio div:nth-child(7) { background-color: pink; }
+.main-container-ejercicio div:nth-child(8) { background-color: gray; }
+.main-container-ejercicio div:nth-child(9) { background-color: brown; }
+.main-container-ejercicio div:nth-child(10) { background-color: rgb(168, 24, 108); }
+
+/*---------------------------------------ejercicio 2-----------------------------------------------------------*/
+.main-container-ejercicio2 {
+  width: 900px;
+  height: 600px;  
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column-reverse;
+
+  
+}
+
+.main-container-ejercicio2 div2 {
+  height: 70px;
+  width: 100%;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+
+.main-container-ejercicio2 div2:nth-child(1) { background-color: red; }
+.main-container-ejercicio2 div2:nth-child(2) { background-color: blue; }
+.main-container-ejercicio2 div2:nth-child(3) { background-color: green; }
+.main-container-ejercicio2 div2:nth-child(4) { background-color: yellow; }
+.main-container-ejercicio2 div2:nth-child(5) { background-color: purple; }
+.main-container-ejercicio2 div2:nth-child(6) { background-color: orange; }
+.main-container-ejercicio2 div2:nth-child(7) { background-color: pink; }
+.main-container-ejercicio2 div2:nth-child(8) { background-color: gray; }
+.main-container-ejercicio2 div2:nth-child(9) { background-color: brown; }
+.main-container-ejercicio2 div2:nth-child(10) { background-color: rgb(168, 24, 108); }
+
+/*---------------------------------------ejercicio 3-----------------------------------------------------------*/
+
+.main-container-ejercicio3 {
+  width: 900px;
+  height: 600px;  
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-container-ejercicio3 div3 {
+  height: 150px;
+  width: 33.33%;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.main-container-ejercicio3 div3:nth-child(1) { background-color: red; }
+.main-container-ejercicio3 div3:nth-child(2) { background-color: blue; }
+.main-container-ejercicio3 div3:nth-child(3) { background-color: green; }
+.main-container-ejercicio3 div3:nth-child(4) { background-color: yellow; }
+.main-container-ejercicio3 div3:nth-child(5) { background-color: purple; }
+.main-container-ejercicio3 div3:nth-child(6) { background-color: orange; }
+.main-container-ejercicio3 div3:nth-child(7) { background-color: pink; }
+.main-container-ejercicio3 div3:nth-child(8) { background-color: gray; }
+.main-container-ejercicio3 div3:nth-child(9) { background-color: brown; }
+.main-container-ejercicio3 div3:nth-child(10) { background-color: rgb(168, 24, 108); }
+
+/*---------------------------------------ejercicio 4-----------------------------------------------------------*/
+
+.main-container-ejercicio4 {
+  flex: 1;
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  height: 70px;
+}
+
+.main-container-ejercicio4 div4 {
+  flex: 1;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.main-container-ejercicio4 div4:nth-child(1) { background-color: red; }
+.main-container-ejercicio4 div4:nth-child(2) { background-color: blue; }
+.main-container-ejercicio4 div4:nth-child(3) { background-color: green; }
+.main-container-ejercicio4 div4:nth-child(4) { background-color: yellow; }
+.main-container-ejercicio4 div4:nth-child(5) { background-color: purple; order: 2;}
+.main-container-ejercicio4 div4:nth-child(6) { background-color: orange; order: -1;}
+.main-container-ejercicio4 div4:nth-child(7) { background-color: pink; }
+.main-container-ejercicio4 div4:nth-child(8) { background-color: gray; }
+.main-container-ejercicio4 div4:nth-child(9) { background-color: brown; }
+.main-container-ejercicio4 div4:nth-child(10) { background-color: rgb(168, 24, 108); }   
+
+/*---------------------------------------ejercicio 5-----------------------------------------------------------*/
+
+.main-container-ejercicio5 {
+  width: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.main-container-ejercicio5 div5 {
+  flex: 1;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  
+}
+
+.main-container-ejercicio5 div5:nth-child(1) { background-color: red; }
+.main-container-ejercicio5 div5:nth-child(2) { background-color: blue; }
+.main-container-ejercicio5 div5:nth-child(3) { background-color: green; }
+.main-container-ejercicio5 div5:nth-child(4) { background-color: yellow; }
+.main-container-ejercicio5 div5:nth-child(5) { background-color: purple; }
+.main-container-ejercicio5 div5:nth-child(6) { background-color: orange; }
+.main-container-ejercicio5 div5:nth-child(7) { background-color: pink; }
+.main-container-ejercicio5 div5:nth-child(8) { background-color: gray; }
+.main-container-ejercicio5 div5:nth-child(9) { background-color: brown; }
+.main-container-ejercicio5 div5:nth-child(10) { background-color: rgb(168, 24, 108); } 
+
+/*---------------------------------------ejercicio 6-----------------------------------------------------------*/
+
+.main-container-ejercicio6 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+
+  }
+
+.main-container-ejercicio6 div6 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+
+.main-container-ejercicio6 div6:nth-child(1) { background-color: red; font-size: 30px; }
+.main-container-ejercicio6 div6:nth-child(2) { background-color: blue; font-size: 40px; }
+.main-container-ejercicio6 div6:nth-child(3) { background-color: green; font-size: 50px; }
+.main-container-ejercicio6 div6:nth-child(4) { background-color: yellow; font-size: 60px; }
+.main-container-ejercicio6 div6:nth-child(5) { background-color: purple; font-size: 70px; }
+.main-container-ejercicio6 div6:nth-child(6) { background-color: orange; font-size: 30px; }  
+.main-container-ejercicio6 div6:nth-child(7) { background-color: pink; font-size: 50px; }
+.main-container-ejercicio6 div6:nth-child(8) { background-color: gray; font-size: 40px; }
+.main-container-ejercicio6 div6:nth-child(9) { background-color: brown; font-size: 30px; }
+.main-container-ejercicio6 div6:nth-child(10) { background-color: rgb(168, 24, 108); font-size: 20px; }
+
+/*---------------------------------------ejercicio 7-----------------------------------------------------------*/
+
+.main-container-ejercicio7 {
+  width: 900px;
+  height: 600px;  
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.main-container-ejercicio7 div7 {
+  height: 100px;
+  width: 33.33%;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.main-container-ejercicio7 div7:nth-child(1) { background-color: red; }
+.main-container-ejercicio7 div7:nth-child(2) { background-color: blue; }
+.main-container-ejercicio7 div7:nth-child(3) { background-color: green; }
+.main-container-ejercicio7 div7:nth-child(4) { background-color: yellow; }
+.main-container-ejercicio7 div7:nth-child(5) { background-color: purple; }
+.main-container-ejercicio7 div7:nth-child(6) { background-color: orange; }
+.main-container-ejercicio7 div7:nth-child(7) { background-color: pink; }
+.main-container-ejercicio7 div7:nth-child(8) { background-color: gray; }
+.main-container-ejercicio7 div7:nth-child(9) { background-color: brown; }
+.main-container-ejercicio7 div7:nth-child(10) { background-color: rgb(168, 24, 108); }
+
+/*---------------------------------------ejercicio 8-----------------------------------------------------------*/
+
+.main-container-ejercicio8 {
+  width: 900px;
+  height: 600px;  
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+
+.main-container-ejercicio8 div8 {
+  width: 33.33%;
+  height: 100px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.main-container-ejercicio8 div8:nth-child(1) { background-color: red; }
+.main-container-ejercicio8 div8:nth-child(2) { 
+  background-color: blue; 
+  align-self: stretch;
+  height: auto;
+}
+.main-container-ejercicio8 div8:nth-child(3) { background-color: green; }
+.main-container-ejercicio8 div8:nth-child(4) { background-color: yellow; }
+.main-container-ejercicio8 div8:nth-child(5) { background-color: purple; }
+.main-container-ejercicio8 div8:nth-child(6) { background-color: orange; align-self: end; }
+.main-container-ejercicio8 div8:nth-child(7) { background-color: pink; }
+.main-container-ejercicio8 div8:nth-child(8) { background-color: gray; align-self: center; }
+.main-container-ejercicio8 div8:nth-child(9) { background-color: brown; }
+.main-container-ejercicio8 div8:nth-child(10) { background-color: rgb(168, 24, 108); }

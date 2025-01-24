@@ -1,0 +1,52 @@
+/* Estilos base para la página */
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+/* Estilos para los h2 dentro de .articulo */
+.articulo h2 {
+    color: #CC6600;
+    font-size: 1.6em;
+    line-height: 1.2em;
+}
+
+/* Estilos para el menú */
+#menu a {
+    color: white;
+    font-size: 1.3em;
+}
+
+#menu {
+    background-color: blue;
+}
+
+/* Estilos para la barra lateral */
+#lateral {
+    font-size: 0.9em;
+}
+
+#lateral .fecha {
+    color: #999;
+}
+
+/* Estilos para el título de noticias */
+#noticias h3 {
+    color: #003366;
+}
+
+/* Estilos para la publicidad */
+#publicidad {
+    color: #555;
+}
+
+#publicidad a {
+    color: #CC6600;
+}
+
+/* Estilos para los enlaces dentro de artículos */
+.articulo a {
+    color: #CC6600;
+}

@@ -1,0 +1,214 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.section-ejercicio {
+  margin-bottom: 2rem;
+}
+
+/* Contenedor para las cartas */
+.cards-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos base compartidos para todas las cartas */
+.playing-card1, .playing-card2, .playing-card3 {
+  width: 250px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: relative;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  border: 1px solid black;
+}
+/*-------------CARTA 1-------------*/ 
+
+/* Carta 1 - Disposición vertical */
+.playing-card1 .center-suits {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 40px;
+
+}
+
+.playing-card1 .center-suits .symbol img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+.playing-card1 .center-suits .symbol:last-child img {
+  transform: rotate(180deg);
+}
+
+/*-------------CARTA 2-------------*/   
+.carta2 {
+  width: 250px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  border: 1px solid black;
+  position: relative;
+}
+
+.corner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 40px;
+  z-index: 1;
+}
+
+.top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  transform: rotate(180deg);
+}
+
+
+.symbol img {
+  width: 20px;
+  height: 20px;
+}
+
+.center-picas2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  place-self: center;
+  width: 100%;
+  height: 100%;
+  padding: 60px 20px;
+  border: 1px solid black;
+ 
+}
+
+.simbolo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+
+  bottom: 100px;
+  margin-top: 20px;
+}
+
+.simbolo img {
+  width: 70px;
+  height: 70px;
+}
+
+.par.inferior {
+  transform: rotate(180deg);
+} 
+/*-------------CARTA 3 ------------------*/
+.playing-card3 {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: 40px;
+  place-items: center;
+}
+
+.playing-card3 .corner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  width: 30px;
+}
+
+.playing-card3 .top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.playing-card3 .bottom-right {
+  bottom: 10px;
+  right: 10px;
+  transform: rotate(180deg);
+}
+
+.playing-card3 .center-picas,
+.playing-card3 .center-picas2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
+    width: 100%;
+    height: 200px;
+    gap: 10px;
+}
+
+.playing-card3 .center-picas {
+    margin-bottom: 20px;
+}
+
+.playing-card3 .center-picas2 {
+    margin-top: 20px;
+    transform: rotate(180deg);
+}
+
+.playing-card3 .center-picas img,
+.playing-card3 .center-picas2 img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+/* Estilos comunes para elementos de las cartas */
+.corner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-left {
+  justify-self: start;
+}
+
+.bottom-right {
+  transform: rotate(180deg);
+  justify-self: end;
+}
+
+.letter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.symbol img {
+  width: 30px;
+  height: 30px;
+}
+
+
+

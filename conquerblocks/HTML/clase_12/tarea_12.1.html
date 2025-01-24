@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body>
+    <form method="GET" action="">
+        <h1><strong>Formulario de registro</strong></h1>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" maxlength="50" required>
+        </div>
+        <div>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" maxlength="50" required>
+        </div>
+        <p>Sexo:</p>
+        <div>
+            <input type="radio" id="hombre" name="sexo" value="hombre">
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="sexo" value="mujer">
+            <label for="mujer">Mujer</label>
+        </div>
+        <p>Correo electrónico:</p>
+        <div>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <p>Población:</p>
+        <div>
+            <label for="poblacion">Población:</label>
+            <select id="poblacion" name="poblacion">
+                <option value="-">Seleccione una población</option>
+                <option value="alicante">Alicante</option> 
+                <option value="madrid">Madrid</option>
+                <option value="sevilla">Sevilla</option>
+                <option value="valencia">Valencia</option>
+            </select>
+        </div>
+        <div>
+            <label for="descripcion">Descripción:<br></label>
+            <textarea id="descripcion" name="descripcion" rows="10" cols="50"></textarea>
+        </div>
+        <p>Foto:</p>
+        <div>
+            <label for="foto">Foto:</label>
+            <input type="file" id="foto" name="foto">
+        </div>
+        <p>Información sobre novedades y ofertas</p>
+        <div>
+            <input type="checkbox" id="info" name="info" checked>
+            <label for="info">Deseo recibir información sobre novedades y ofertas</label>
+        </div>
+        <p>Condiciones generales del programa y la normativa sobre protección de datos</p>
+        <div>
+            <input type="checkbox" id="condiciones" name="condiciones">
+            <label for="condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
+
+<ul>
+    <li><a href="https://es.wikipedia.org/wiki/HTML" target="myiframe   ">wikipedia</a></li>
+    <li><a href="https://www.google.com" target="myiframe">google</a></li>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CiDjTpk2Njg?si=DZlSE0bExdMmA4CL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</ul>
+<iframe src="https://es.wikipedia.org/wiki/HTML" name="myiframe" width="100%" height="500px"></iframe>
+
+<video width="320" height="240" controls autoplay loop muted>
+    <source src="assets/mini-proyectos-backend.mp4" type="video/mp4">
+</video>

@@ -1,0 +1,114 @@
+/* Variables CSS */
+:root {
+    --primary-color: #333;
+    --icon-size: 35px;
+    --text-size: 35px;
+    --spacing: 15px;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+.main-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Utilidades */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Navegación social */
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    margin: 15px 0;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary-color);
+    gap: var(--spacing);
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateX(10px);
+}
+
+/* Iconos */
+.social-links img {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    object-fit: contain;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+    font-size: var(--icon-size);
+    width: var(--icon-size);
+    height: var(--icon-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Textos de redes sociales */
+.facebook, 
+.instagram, 
+.twitter, 
+.youtube, 
+.linkedin, 
+.pinterest {
+    font-size: var(--text-size);
+    line-height: var(--icon-size);
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    :root {
+        --icon-size: 30px;
+        --text-size: 30px;
+        --spacing: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --icon-size: 25px;
+        --text-size: 25px;
+        --spacing: 8px;
+    }
+}

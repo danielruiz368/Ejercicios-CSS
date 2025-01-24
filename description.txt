@@ -1,0 +1,1 @@
+Este proyecto, parte del módulo avanzado de Python en Conquerblocks, mejora la accesibilidad para personas mayores o con discapacidades y es ideal para practicar inglés. Utiliza Google Text-to-Speech para escuchar textos con pronunciación natural y Google Translate para aprender nuevas frases. 

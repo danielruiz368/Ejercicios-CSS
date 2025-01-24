@@ -1,0 +1,179 @@
+body > main {
+    display: flex;
+    gap: 25px;
+  }
+  
+  div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    border: 2px solid black;
+  }
+  
+  .container.carta1 {
+    display: grid;
+    grid-template-columns: 30px repeat(3, 2fr) 30px;
+    grid-template-areas:
+      "header . main . ."
+      ". . main . ."
+      ". . main . footer";
+  }
+  
+  .container p {
+    margin: 0;
+    padding: 0;
+  }
+  .container main {
+    grid-area: main;
+  }
+  .container header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+  }
+  .container.container.carta1 header {
+    padding-left: 35px;
+    padding-top: 15px;
+  }
+  .container footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+  .container header img {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  .container footer img {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container.carta1 main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+  }
+  .container.carta1 main figure {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container.carta1 main img {
+    width: 80px;
+  }
+  
+  .container.carta1 main figure:nth-of-type(3) {
+    transform: rotate(180deg);
+  }
+  .container.carta2 {
+    display: grid;
+    grid-template-columns: 50px repeat(3, 2fr) 50px;
+    grid-template-areas:
+      "header main main main ."
+      ". main main main ."
+      ". main main main footer";
+    border: 2px solid black;
+  }
+  .container.carta2 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container.carta2 section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .container.carta2 section figure {
+    margin: 0;
+    padding: 0;
+  }
+  .container.carta2 header {
+    justify-content: flex-start;
+  }
+  .container.carta2 footer {
+    justify-content: flex-start;
+    transform: rotate(180deg);
+  }
+  .container.carta2 main .up {
+    display: flex;
+    padding-top: 20px;
+  }
+  .container.carta2 main .down {
+    display: flex;
+    padding-top: 20px;
+    transform: rotate(180deg);
+  }
+  .container.carta2 main img,
+  .container.carta3 main img {
+    width: 70px;
+  }
+  
+  .container.carta3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "header main ."
+      ". main ."
+      " . main footer";
+  }
+  .container.carta3 header {
+    grid-area: header;
+  }
+  .container.carta3 footer {
+    grid-area: footer;
+  }
+  .container.carta3 main {
+    display: grid;
+    grid-area: main;
+    grid-template-areas:
+      "header c1 c2 c3 ."
+      ". c1 c2 c3 ."
+      " . c1 c2 c3 footer";
+  }
+  .container.carta3 main .c1 {
+    grid-area: c1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container.container.carta3 .c2 {
+    grid-area: c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .container.container.carta3 .c3 {
+    grid-area: c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .carta3 img {
+    width: 60px;
+  }
+  
+  .carta3 .rotate {
+    transform: rotate(180deg);
+  }
