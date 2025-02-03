@@ -1,0 +1,88 @@
+table {
+    width: 70%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 25px auto;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 20px rgba(219, 31, 6, 0.1);
+    border: 1px solid #000000;
+}
+
+/* Estilos base para celdas */
+th, td {
+    padding: 12px 15px;
+    border: none;
+    margin: 0;
+}
+
+th {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
+
+/* Estilos para filas */
+tr {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
+tr:nth-child(even) {
+    background-color: #dfdfdf;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+    transition: all 0.3s ease;
+}
+
+/* Clases especiales */
+.percentage {
+    text-align: center;
+}
+
+.actual {
+    background-color: #5175c2;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.proyected,
+.utilization {
+    background-color: #6e9afa;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.best {
+    background-color: #ffee00;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    color: #070707;
+    padding: 1rem;
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}

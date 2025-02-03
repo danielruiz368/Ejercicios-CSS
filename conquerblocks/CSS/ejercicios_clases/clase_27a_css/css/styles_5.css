@@ -1,0 +1,118 @@
+.order-checkbox {
+    /* Estilo básico del contenedor */
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Ocultar el checkbox predeterminado */
+.order-checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Crear el checkbox personalizado */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo al pasar el mouse */
+.order-checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* Estilo cuando está marcado */
+.order-checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+
+/* Crear la marca de verificación */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Mostrar la marca cuando está checked */
+.order-checkbox input:checked ~ .checkmark:after {
+    display: block;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+th .order-checkbox {
+    padding-left: 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+th .checkmark {
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+}
+
+th .order-checkbox input:checked ~ .checkmark:after {
+    left: 7px;
+    top: 3px;
+}
+
+
+footer {
+    background-color: #ffffff;
+    color: #070707;
+    padding: 1rem;
+    margin-top: 15rem;
+    text-align: center;
+  }
+
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+    color: #a09f9f;
+    text-align: left;
+  }
+
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 2px solid #000000;
+    text-align: left;
+   
+    
+  }
+  th {
+   
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  td {
+    background-color: #474242b6;
+  }
+
+  small {
+    font-size: 12px;
+    display: block;
+  }
