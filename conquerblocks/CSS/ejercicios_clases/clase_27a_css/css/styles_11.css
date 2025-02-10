@@ -1,0 +1,84 @@
+/* Lista ordenada principal */
+ol {
+    list-style: none;
+    padding: 15px;
+    width: 400px;
+    margin: 20px auto;
+    counter-reset: my-counter;
+}
+
+/* Elementos de la lista */
+ol li {
+    padding: 15px 15px 15px 30px;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    counter-increment: my-counter;
+    position: relative;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Eliminar la línea del último elemento */
+ol li:last-child {
+    border-bottom: none;
+}
+
+h1 {    
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Footer unificado */
+footer {
+    text-align: center;
+    margin-top: 150px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Estilos para la lista numerada */
+ol {
+    list-style-type: none;
+    counter-reset: my-counter;
+    padding-left: 0;
+    padding: 15px;
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ol li {
+    counter-increment: my-counter;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+    font-size: 1.1em;
+}
+
+ol li::before {
+    content: counter(my-counter);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #21618b;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+/* Efecto hover para los elementos de la lista */
+ol li:hover {
+    color: #3498db;
+    cursor: pointer;
+}
+
+ol li:hover::before {
+    background-color: #2980b9;
+}

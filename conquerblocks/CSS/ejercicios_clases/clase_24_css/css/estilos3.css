@@ -140,9 +140,13 @@ body > main {
   }
   .container.carta3 header {
     grid-area: header;
+    
+    margin-bottom: 100px;
   }
   .container.carta3 footer {
     grid-area: footer;
+    
+    border-top: none;
   }
   .container.carta3 main {
     display: grid;
@@ -157,6 +161,8 @@ body > main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 2px solid black;
+    gap: px;
   }
   .container.container.carta3 .c2 {
     grid-area: c2;
@@ -171,7 +177,7 @@ body > main {
     justify-content: center;
   }
   .carta3 img {
-    width: 60px;
+    width: 100px;
   }
   
   .carta3 .rotate {
