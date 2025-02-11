@@ -1,0 +1,89 @@
+/* Estilos base del menú */
+.index-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #6260b8;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  width: 45%;
+  margin: 0 auto;   
+  justify-content: space-between;
+
+}
+
+.index-menu li {
+  position: relative;
+  margin-right: 15px;
+}
+
+.index-menu a {
+  display: block;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+/* Submenú - inicialmente oculto */
+.index-menu ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #454a55;
+  min-width: 2px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: left;
+}
+
+/* Mostrar submenú al hacer hover */
+.index-menu li:hover > ul {
+  display: block;
+}
+
+/* Estilos para los elementos del submenú */
+.index-menu ul li {
+  width: 100%;
+}
+
+.index-menu ul a {
+  padding: 10px;
+  color: white;
+  text-align: left;
+}
+
+/* Ajustes para submenú horizontal */
+.index-menu ul {
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+}
+
+/* Ajustes para enlaces en menú horizontal */
+.index-menu > li > a {
+  padding: 15px 20px;
+  white-space: nowrap;
+}
+
+/* Efecto hover para menú horizontal */
+.index-menu > li:hover > a {
+  background-color: #16a9ee;
+}
+
+/* Efecto hover para los enlaces */
+.index-menu a:hover {
+  background-color: #0ddaf5;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  color: #454a55;
+}
