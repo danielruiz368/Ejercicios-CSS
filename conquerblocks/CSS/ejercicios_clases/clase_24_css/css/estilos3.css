@@ -161,20 +161,23 @@ body > main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid black;
-    gap: px;
+    
+    transform: translateX(10px);
   }
   .container.container.carta3 .c2 {
     grid-area: c2;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    position: relative;
+    
   }
   .container.container.carta3 .c3 {
     grid-area: c3;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform: translateX(-9px);
   }
   .carta3 img {
     width: 100px;
